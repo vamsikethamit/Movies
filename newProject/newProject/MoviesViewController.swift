@@ -83,10 +83,13 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         titleLabel.text = "TrackTV ▶︎"
         titleLabel.font = UIFont.boldSystemFont(ofSize: 22)
 
-        // Search Icon
+        // change number
+        
         let searchIcon = UIImageView(frame: CGRect(x: 320, y: 75, width: 24, height: 24))
         searchIcon.image = UIImage(systemName: "magnifyingglass")
         searchIcon.tintColor = .white
+        
+        
 
         // Menu Icon
         let menuIcon = UIImageView(frame: CGRect(x:400, y: 75, width: 50, height: 50))
